@@ -1,0 +1,31 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgrey;
+  margin: 10px;
+  border-radius: 10px;
+  background: white;
+  padding: 10px;
+}
+
+.post__line1 {
+  display: flex;
+  flex-direction: column;
+}
+.post__line1_a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.post__line1_a > .MuiAvatar-root {
+  margin: 5px 10px;
+}
+.post__message {
+  margin: 10px 10px 20px 10px;
+}
+
+.post__line2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

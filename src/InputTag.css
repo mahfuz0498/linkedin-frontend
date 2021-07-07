@@ -1,0 +1,59 @@
+.inputTag {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  position: relative;
+}
+.inputTag > .MuiAvatar-root {
+  margin: 5px;
+  width: 45px;
+  height: 45px;
+}
+
+.inputTag > form {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  position: absolute;
+  left: 55px;
+  top: auto;
+  height: 100%;
+}
+.inputTag input {
+  width: 100%;
+  flex: 1;
+  padding: 0px 10px;
+  border-radius: 99px;
+  border: 1px solid lightgrey;
+  outline-width: 0;
+  margin-right: 10px;
+  height: 50px;
+}
+
+.inputTag > form > .inputButton {
+  height: 40px;
+  width: 40px;
+  padding: 5px 10px;
+  /* background: rgb(142, 243, 216); */
+  /* border-radius: 99px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 99px;
+  border: none;
+  outline-width: 0;
+}
+
+.inputTag > form > .inputButton > .inputIcon {
+  background: rgb(39, 148, 195);
+  padding: 8px;
+  border-radius: 99px;
+  color: white;
+  transition: 0.2s;
+  /* border: 1px solid green; */
+}
+.inputTag > form > .inputButton > .inputIcon:hover {
+  color: rgb(246, 241, 241);
+}

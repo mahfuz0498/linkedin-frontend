@@ -1,0 +1,8 @@
+.rightbar {
+  flex: 0.25;
+  background: white;
+  height: fit-content;
+  padding: 10px 10px 20px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}

@@ -1,0 +1,15 @@
+.inputItem {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.inputItem__image {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.inputItem__image:hover {
+  color: rgb(18, 129, 184) !important;
+  transition: 0.2s;
+}

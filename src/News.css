@@ -1,0 +1,14 @@
+.news {
+  /* margin-top: 20px; */
+  margin-left: 20px;
+  /* background: red; */
+}
+
+.news > p {
+  color: grey;
+  font-weight: 500px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding-left: 0px;
+  margin-left: -20px;
+}
